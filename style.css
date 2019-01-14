@@ -1,13 +1,130 @@
+/* BIEN ET MAL*/
+
 .bien {
-
-    color: green;
-    font-weight: bold;
-
+    color: darkolivegreen;
+    
 }
 
 .mal {
+    color: darkred;
+}
 
-    color: red;
-    font-weight: bold;
+
+/*PRINCIPAL*/
+
+body {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #cb3737;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+
 
 }
+
+#boite {
+    border:1px solid #fafafa;
+    background-color: rgba(248, 161, 161, 0.1);
+    padding: 50px;
+}
+
+header {
+  /*  background-color: #ee6f57;*/
+    margin: -15px;
+    padding-top: -150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: #cb3737;
+}
+
+.citationTitre {
+    font-style: italic;
+
+}
+
+blockquote {
+    color: #cb3737;
+    text-align: right;
+
+}
+
+img {
+    border-image: 1px;
+    height: 500px;
+
+}
+
+
+/*PARAGRAPHES*/
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: 300;
+    text-align: justify;
+    line-height: 150%;
+}
+
+#laListe {
+    margin-left : 160px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+ }
+
+ li.list1 {
+    background: url('bien.png') no-repeat;
+    height: 54px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+li.list2 {
+    background: url('mal.png') no-repeat;
+    height: 54px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+li.list3 {
+    background: url('chat.png') no-repeat;
+    height: 54px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+li.list4 {
+    background: url('nope.png') no-repeat;
+    height: 54px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+/*TABLEAU*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+  }

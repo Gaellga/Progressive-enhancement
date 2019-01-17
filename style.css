@@ -398,6 +398,10 @@ body {
     background: -webkit-linear-gradient(-180deg, rgb(232, 157, 139, 0.1), rgb(243, 200, 157, 0.2));
     background: linear-gradient(-180deg, rgb(232, 157, 139, 0.1), rgb(243, 200, 157, 0.2));    
     padding: 50px;
+    width: 80%;
+    height: 80%;
+    min-width: 940px;
+    min-height: 940px;
 }
 
 header {
